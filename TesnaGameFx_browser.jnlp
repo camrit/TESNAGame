@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8083/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/C%3A/Users/Gijs/Colleges/BscRef/TesnaGameFx/dist/" href="TesnaGameFx_browser.jnlp">
+    <information>
+        <title>TesnaGameFx</title>
+        <vendor>Gijs</vendor>
+        <homepage href="http://localhost:8083/servlet/org.netbeans.modules.javafx.project.JnlpDownloadServlet/C%3A/Users/Gijs/Colleges/BscRef/TesnaGameFx/dist/"/>
+        <description>TesnaGameFx</description>
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+        </shortcut>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.5+"/>
+        <property name="jnlp.packEnabled" value="true"/>
+        <property name="jnlp.versionEnabled" value="true"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.1/javafx-rt.jnlp"/>
+        <jar href="TesnaGameFx.jar" main="true"/>
+    </resources>
+    <applet-desc name="TesnaGameFx" main-class="com.sun.javafx.runtime.adapter.Applet" width="800" height="640">
+        <param name="MainJavaFXScript" value="tesnagamefx.Main">
+    </applet-desc>
+</jnlp>

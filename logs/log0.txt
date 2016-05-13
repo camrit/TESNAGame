@@ -1,0 +1,3 @@
+TESNAGame started
+Load puzzle puzzles/puzzle0.tgp
+TESNAGame closed

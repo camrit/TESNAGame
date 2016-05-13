@@ -1,0 +1,1 @@
+javaws TesnaGameFX.jnlp
